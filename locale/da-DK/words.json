@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "klaver",
+  "guitar": "guitar",
+  "bass": "bas"
+ },
+ "scale": {
+  "major": "{note}-dur",
+  "minor": "{note}-mol",
+  "harmonic_minor": "{note} harmonisk mol",
+  "dorian": "{note} dorisk",
+  "mixolydian": "{note} mixolydisk",
+  "major_pentatonic": "{note}-dur-pentaton",
+  "minor_pentatonic": "{note}-mol-pentaton",
+  "blues": "{note}-blues"
+ },
+ "scale_heading": {
+  "major": "{note}-dur",
+  "minor": "{note}-mol",
+  "harmonic_minor": "{note} harm. mol",
+  "dorian": "{note} dorisk",
+  "mixolydian": "{note} mixolydisk",
+  "major_pentatonic": "{note}-dur pent.",
+  "minor_pentatonic": "{note}-mol pent.",
+  "blues": "{note}-blues"
+ },
+ "chord": {
+  "maj": "{note}-dur",
+  "min": "{note}-mol",
+  "7": "{note} syv",
+  "maj7": "{note} stor syv",
+  "m7": "{note}-mol syv",
+  "dim": "{note} formindsket",
+  "sus2": "{note} sus to",
+  "sus4": "{note} sus fire",
+  "6": "{note} seks"
+ },
+ "strings": {
+  "guitar": [
+   "dybe E",
+   "A",
+   "D",
+   "G",
+   "H",
+   "lyse E"
+  ],
+  "bass": [
+   "E",
+   "A",
+   "D",
+   "G"
+  ]
+ },
+ "fingers": [
+  "tommelfinger",
+  "pegefinger",
+  "langemand",
+  "ringfinger",
+  "lillefinger"
+ ],
+ "and": "og",
+ "place": "{string}-strengen, {fret}. bånd",
+ "open_string": "den løse {string}-streng",
+ "finger_place": "{finger} på {string}-strengen i {fret}. bånd",
+ "barre": "læg pegefingeren hen over alle strengene i {fret}. bånd",
+ "mute": "Spil ikke på {strings}-strengen",
+ "all_open": "alle strengene løse",
+ "your_turn": "Din tur",
+ "band_turn": "Bandet",
+ "listening": "Jeg lytter ...",
+ "right": "Rigtigt!",
+ "wrong": "Ikke helt",
+ "tune_low": "for lav",
+ "tune_high": "for høj",
+ "tune_ok": "stemt"
+}

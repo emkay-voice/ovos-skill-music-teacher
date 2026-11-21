@@ -1,0 +1,8 @@
+{"utterance": "me ensine a escala de dó maior no piano", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "como eu toco lá menor no violão", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "me ensine o hino da alegria no piano", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "me ensine a improvisar um blues em lá no violão", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "afina meu baixo", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "aula de música", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "próxima aula", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "o que você pode me ensinar", "lang": "pt-BR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

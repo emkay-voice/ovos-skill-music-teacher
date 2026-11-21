@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Musika irakaslea",
+  "description": "Piano, gitarra eta baxu eskolak: eskalak, akordeak, abesti errazak eta inprobisazioa. Pantailan erakusten da teklekin edo trasteekin eta hatzekin, zuretzat jotzen du, eta gero zu jotzen entzuten zaitu - mikrofonoaren bidez, edo zehatz MIDI teklatu baten bidez - eta zer egon den ondo esaten dizu, edo lehen akatsa. Ikasi abesti bat zatika eta gero jo taldearekin; inprobisatu txandaka taldearekin; afinatu zure gitarra edo baxua. Instrumentu bakoitzeko ikastaro batek gogoratzen du non zauden.",
+  "examples": [
+    "irakatsi iezadazu do maior eskala pianoan",
+    "nola jo la minor gitarran",
+    "irakatsi iezadazu Bozkariorako oda pianoan",
+    "irakatsi iezadazu blues bat inprobisatzen la tonuan gitarran",
+    "afinatu nire baxua",
+    "musika eskola",
+    "hurrengo ikasgaia",
+    "zer irakats diezadakezu"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Professeur de musique",
+  "description": "Leçons de piano, de guitare et de basse : gammes, accords, chansons simples et jam. Montré à l'écran avec les touches ou les cases et les doigts, joué pour toi, puis il t'écoute jouer - au micro, ou exactement avec un clavier MIDI - et te dit ce qui était juste, ou la première erreur. Apprends une chanson morceau par morceau, puis joue-la avec le groupe ; improvise à tour de rôle avec le groupe ; accorde ta guitare ou ta basse. Un cours pour chaque instrument se souvient d'où tu en es.",
+  "examples": [
+    "apprends-moi la gamme de do majeur au piano",
+    "comment jouer la mineur à la guitare",
+    "apprends-moi l'Hymne à la joie au piano",
+    "apprends-moi à jammer un blues en la à la guitare",
+    "accorde ma basse",
+    "leçon de musique",
+    "leçon suivante",
+    "qu'est-ce que tu peux m'apprendre"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

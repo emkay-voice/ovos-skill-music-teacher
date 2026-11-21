@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Professor de música",
+  "description": "Aulas de piano, violão e baixo: escalas, acordes, músicas simples e improviso. Mostrado na tela com as teclas ou casas e os dedos, tocado para você, e depois ele ouve você tocar - pelo microfone, ou exatamente por um teclado MIDI - e diz o que estava certo, ou o primeiro erro. Aprenda uma música pedaço por pedaço e depois toque com a banda; improvise em turnos com a banda; afine seu violão ou seu baixo. Um curso para cada instrumento lembra onde você parou.",
+  "examples": [
+    "me ensine a escala de dó maior no piano",
+    "como eu toco lá menor no violão",
+    "me ensine o Hino da alegria no piano",
+    "me ensine a improvisar um blues em lá no violão",
+    "afina meu baixo",
+    "aula de música",
+    "próxima aula",
+    "o que você pode me ensinar"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

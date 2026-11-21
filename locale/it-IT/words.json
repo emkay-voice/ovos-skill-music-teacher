@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "pianoforte",
+  "guitar": "chitarra",
+  "bass": "basso"
+ },
+ "scale": {
+  "major": "{note} maggiore",
+  "minor": "{note} minore",
+  "harmonic_minor": "{note} minore armonica",
+  "dorian": "{note} dorica",
+  "mixolydian": "{note} misolidia",
+  "major_pentatonic": "{note} pentatonica maggiore",
+  "minor_pentatonic": "{note} pentatonica minore",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} maggiore",
+  "minor": "{note} minore",
+  "harmonic_minor": "{note} min. arm.",
+  "dorian": "{note} dorica",
+  "mixolydian": "{note} misolidia",
+  "major_pentatonic": "{note} pent. magg.",
+  "minor_pentatonic": "{note} pent. min.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} maggiore",
+  "min": "{note} minore",
+  "7": "{note} sette",
+  "maj7": "{note} maggiore sette",
+  "m7": "{note} minore sette",
+  "dim": "{note} diminuito",
+  "sus2": "{note} sus due",
+  "sus4": "{note} sus quattro",
+  "6": "{note} sei"
+ },
+ "strings": {
+  "guitar": [
+   "mi basso",
+   "la",
+   "re",
+   "sol",
+   "si",
+   "mi cantino"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "re",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "pollice",
+  "indice",
+  "medio",
+  "anulare",
+  "mignolo"
+ ],
+ "and": "e",
+ "place": "la corda di {string}, tasto {fret}",
+ "open_string": "la corda di {string} a vuoto",
+ "finger_place": "{finger} sulla corda di {string}, tasto {fret}",
+ "barre": "fai un barré con l'indice al tasto {fret}",
+ "mute": "Non suonare la corda di {strings}",
+ "all_open": "tutte le corde a vuoto",
+ "your_turn": "Tocca a te",
+ "band_turn": "La band",
+ "listening": "Ti ascolto ...",
+ "right": "Giusto!",
+ "wrong": "Quasi",
+ "tune_low": "bassa",
+ "tune_high": "alta",
+ "tune_ok": "accordata"
+}

@@ -1,0 +1,106 @@
+{
+ "instrument": "bass",
+ "steps": [
+  {
+   "do": "tune"
+  },
+  {
+   "do": "scale",
+   "key": "G"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "C",
+    "G"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "london_bridge"
+  },
+  {
+   "do": "song",
+   "tune": "saints",
+   "key": "G"
+  },
+  {
+   "do": "scale",
+   "key": "E",
+   "scale": "minor_pentatonic"
+  },
+  {
+   "do": "jam",
+   "style": "blues",
+   "key": "E"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "A",
+    "D",
+    "E"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "old_macdonald",
+   "key": "G"
+  },
+  {
+   "do": "scale",
+   "key": "A",
+   "scale": "minor"
+  },
+  {
+   "do": "jam",
+   "style": "rock",
+   "key": "Am"
+  },
+  {
+   "do": "song",
+   "tune": "ode_to_joy"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "Am",
+    "Dm",
+    "Em"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "frere_jacques"
+  },
+  {
+   "do": "jam",
+   "style": "funk",
+   "key": "Em"
+  },
+  {
+   "do": "scale",
+   "key": "A",
+   "scale": "blues"
+  },
+  {
+   "do": "jam",
+   "style": "pop",
+   "key": "C"
+  },
+  {
+   "do": "song",
+   "tune": "mary_lamb"
+  },
+  {
+   "do": "jam",
+   "style": "reggae",
+   "key": "G"
+  },
+  {
+   "do": "jam",
+   "style": "bossa",
+   "key": "D"
+  }
+ ]
+}

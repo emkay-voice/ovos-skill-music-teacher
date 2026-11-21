@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-music-teacher"
+version = "0.1.0a1"
+description = "OVOS music teacher for piano, guitar and bass: scales, chords, simple songs and jamming - shown on the screen, played for you, then it listens to you play and says what was right; a tuner, and a course that remembers where you are"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "music", "lessons", "piano", "guitar", "bass", "tuner", "scales", "chords", "jam", "midi", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: MIDI",
+    "Topic :: Education",
+]
+dependencies = [
+    "ovos-workshop>=0.0.15,<10.0.0",
+    "numpy",
+    "ovos-phal-plugin-midi>=0.1.0",
+    "ovos-skill-jamband>=0.2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-music-teacher"
+Issues = "https://github.com/emkay-voice/ovos-skill-music-teacher/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+Icon = "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-music-teacher.emkay-voice" = "ovos_skill_music_teacher:MusicTeacherSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_music_teacher"]
+
+[tool.setuptools.package-dir]
+ovos_skill_music_teacher = ""
+
+[tool.setuptools.package-data]
+ovos_skill_music_teacher = ["locale/**/*", "*.png", "lessons/*.json"]

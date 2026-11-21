@@ -1,0 +1,8 @@
+{"utterance": "ensenya'm l'escala de do major al piano", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "com toco la menor a la guitarra", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "ensenya'm l'oda a l'alegria al piano", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "ensenya'm a improvisar un blues en la a la guitarra", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "afina el meu baix", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "classe de música", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "següent lliçó", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "què em pots ensenyar", "lang": "ca-ES", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

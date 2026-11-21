@@ -1,0 +1,125 @@
+{
+ "instrument": "guitar",
+ "steps": [
+  {
+   "do": "tune"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "Em",
+    "Am"
+   ]
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "E",
+    "A"
+   ]
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "D",
+    "A7"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "saints",
+   "key": "D"
+  },
+  {
+   "do": "scale",
+   "key": "E",
+   "scale": "minor_pentatonic"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "G",
+    "D7"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "london_bridge",
+   "key": "G"
+  },
+  {
+   "do": "jam",
+   "style": "blues",
+   "key": "E"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "C",
+    "G7"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "old_macdonald",
+   "key": "G"
+  },
+  {
+   "do": "scale",
+   "key": "G"
+  },
+  {
+   "do": "song",
+   "tune": "ode_to_joy",
+   "key": "G"
+  },
+  {
+   "do": "jam",
+   "style": "rock",
+   "key": "Am"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "E7",
+    "B7"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "mary_lamb",
+   "key": "G"
+  },
+  {
+   "do": "song",
+   "tune": "twinkle",
+   "key": "G"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "F",
+    "Bm"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "fur_elise"
+  },
+  {
+   "do": "jam",
+   "style": "pop",
+   "key": "G"
+  },
+  {
+   "do": "song",
+   "tune": "ode_to_joy",
+   "melody": true
+  },
+  {
+   "do": "jam",
+   "style": "funk",
+   "key": "Em"
+  }
+ ]
+}

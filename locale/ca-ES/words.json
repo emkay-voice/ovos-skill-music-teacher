@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "guitarra",
+  "bass": "baix"
+ },
+ "scale": {
+  "major": "{note} major",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} menor harmònica",
+  "dorian": "{note} dòrica",
+  "mixolydian": "{note} mixolídia",
+  "major_pentatonic": "{note} pentatònica major",
+  "minor_pentatonic": "{note} pentatònica menor",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} major",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} m. harm.",
+  "dorian": "{note} dòrica",
+  "mixolydian": "{note} mixolídia",
+  "major_pentatonic": "{note} pent. maj.",
+  "minor_pentatonic": "{note} pent. men.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} major",
+  "min": "{note} menor",
+  "7": "{note} set",
+  "maj7": "{note} major set",
+  "m7": "{note} menor set",
+  "dim": "{note} disminuït",
+  "sus2": "{note} sus dos",
+  "sus4": "{note} sus quatre",
+  "6": "{note} sis"
+ },
+ "strings": {
+  "guitar": [
+   "mi greu",
+   "la",
+   "re",
+   "sol",
+   "si",
+   "mi agut"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "re",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "polze",
+  "dit índex",
+  "dit del mig",
+  "dit anular",
+  "dit petit"
+ ],
+ "and": "i",
+ "place": "la corda {string}, trast {fret}",
+ "open_string": "la corda {string} a l'aire",
+ "finger_place": "{finger} a la corda {string}, trast {fret}",
+ "barre": "fes una cella amb l'índex al trast {fret}",
+ "mute": "No toquis la corda {strings}",
+ "all_open": "totes les cordes a l'aire",
+ "your_turn": "Et toca",
+ "band_turn": "La banda",
+ "listening": "T'escolto ...",
+ "right": "Correcte!",
+ "wrong": "Gairebé",
+ "tune_low": "baixa",
+ "tune_high": "alta",
+ "tune_ok": "afinada"
+}

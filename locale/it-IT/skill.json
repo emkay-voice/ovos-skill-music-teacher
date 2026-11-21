@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Insegnante di musica",
+  "description": "Lezioni di pianoforte, chitarra e basso: scale, accordi, canzoni semplici e improvvisazione. Mostrato sullo schermo con tasti o tasti della chitarra e dita, suonato per te, poi ti ascolta suonare - dal microfono, o esattamente con una tastiera MIDI - e ti dice cosa era giusto, o il primo errore. Impara una canzone un pezzo alla volta, poi suonala con la band; improvvisa a turno con la band; accorda la tua chitarra o il tuo basso. Un corso per ogni strumento ricorda dove sei arrivato.",
+  "examples": [
+    "insegnami la scala di do maggiore al pianoforte",
+    "come suono la minore sulla chitarra",
+    "insegnami l'Inno alla gioia al pianoforte",
+    "insegnami a improvvisare un blues in la sulla chitarra",
+    "accorda il mio basso",
+    "lezione di musica",
+    "prossima lezione",
+    "cosa mi puoi insegnare"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

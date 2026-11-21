@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Musiklærer",
+  "description": "Klaver-, guitar- og basundervisning: skalaer, akkorder, enkle sange og jam. Vist på skærmen med tangenter eller bånd og fingre, spillet for dig, og så lytter den, mens du spiller - gennem mikrofonen, eller helt præcist gennem et MIDI-keyboard - og siger, hvad der var rigtigt, eller den første fejl. Lær en sang et stykke ad gangen, og spil den så med bandet; jam med bandet på skift; stem din guitar eller bas. Et forløb for hvert instrument husker, hvor du er nået til.",
+  "examples": [
+    "lær mig c-dur-skalaen på klaver",
+    "hvordan tager jeg a-mol på guitar",
+    "lær mig Ode til glæden på klaver",
+    "lær mig at jamme en blues i a på guitar",
+    "stem min bas",
+    "musiktime",
+    "næste lektion",
+    "hvad kan du lære mig"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

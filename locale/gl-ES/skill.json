@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Profesor de música",
+  "description": "Clases de piano, guitarra e baixo: escalas, acordes, cancións sinxelas e improvisación. Amósase na pantalla coas teclas ou os trastes e os dedos, tócacho, e despois escóitate tocar - polo micrófono, ou exactamente cun teclado MIDI - e dicche que estivo ben, ou o primeiro erro. Aprende unha canción anaco a anaco e despois tócaa coa banda; improvisa por quendas coa banda; afina a túa guitarra ou o teu baixo. Un curso para cada instrumento lembra por onde vas.",
+  "examples": [
+    "ensíname a escala de do maior no piano",
+    "como toco la menor na guitarra",
+    "ensíname o Himno da alegría no piano",
+    "ensíname a improvisar un blues en la na guitarra",
+    "afina o meu baixo",
+    "clase de música",
+    "seguinte lección",
+    "que me podes ensinar"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

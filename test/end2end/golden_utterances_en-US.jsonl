@@ -1,0 +1,8 @@
+{"utterance": "teach me the c major scale on piano", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "how do i play a minor on guitar", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "teach me ode to joy on piano", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "teach me to jam a blues in a on guitar", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "tune my bass", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "music lesson", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "next lesson", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "what can you teach me", "lang": "en-US", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

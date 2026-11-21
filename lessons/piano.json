@@ -1,0 +1,108 @@
+{
+ "instrument": "piano",
+ "steps": [
+  {
+   "do": "scale",
+   "key": "C"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "C",
+    "F",
+    "G"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "mary_lamb"
+  },
+  {
+   "do": "scale",
+   "key": "G"
+  },
+  {
+   "do": "song",
+   "tune": "ode_to_joy"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "Am",
+    "Dm",
+    "Em"
+   ]
+  },
+  {
+   "do": "song",
+   "tune": "twinkle"
+  },
+  {
+   "do": "jam",
+   "style": "blues",
+   "key": "C"
+  },
+  {
+   "do": "scale",
+   "key": "A",
+   "scale": "minor"
+  },
+  {
+   "do": "song",
+   "tune": "frere_jacques"
+  },
+  {
+   "do": "scale",
+   "key": "F"
+  },
+  {
+   "do": "song",
+   "tune": "jingle_bells"
+  },
+  {
+   "do": "chord",
+   "chord": [
+    "G7",
+    "C7",
+    "Cmaj7"
+   ]
+  },
+  {
+   "do": "jam",
+   "style": "pop",
+   "key": "C"
+  },
+  {
+   "do": "scale",
+   "key": "D"
+  },
+  {
+   "do": "song",
+   "tune": "fur_elise"
+  },
+  {
+   "do": "jam",
+   "style": "swing",
+   "key": "F"
+  },
+  {
+   "do": "song",
+   "tune": "nachtmusik"
+  },
+  {
+   "do": "scale",
+   "key": "A",
+   "scale": "harmonic_minor"
+  },
+  {
+   "do": "jam",
+   "style": "tango",
+   "key": "Am"
+  },
+  {
+   "do": "jam",
+   "style": "bossa",
+   "key": "C"
+  }
+ ]
+}

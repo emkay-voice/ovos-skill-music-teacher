@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "guitar",
+  "bass": "bass"
+ },
+ "scale": {
+  "major": "{note} major",
+  "minor": "{note} minor",
+  "harmonic_minor": "{note} harmonic minor",
+  "dorian": "{note} dorian",
+  "mixolydian": "{note} mixolydian",
+  "major_pentatonic": "{note} major pentatonic",
+  "minor_pentatonic": "{note} minor pentatonic",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} major",
+  "minor": "{note} minor",
+  "harmonic_minor": "{note} harm. minor",
+  "dorian": "{note} dorian",
+  "mixolydian": "{note} mixolydian",
+  "major_pentatonic": "{note} maj. pent.",
+  "minor_pentatonic": "{note} min. pent.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} major",
+  "min": "{note} minor",
+  "7": "{note} seven",
+  "maj7": "{note} major seven",
+  "m7": "{note} minor seven",
+  "dim": "{note} diminished",
+  "sus2": "{note} sus two",
+  "sus4": "{note} sus four",
+  "6": "{note} six"
+ },
+ "strings": {
+  "guitar": [
+   "low E",
+   "A",
+   "D",
+   "G",
+   "B",
+   "high E"
+  ],
+  "bass": [
+   "E",
+   "A",
+   "D",
+   "G"
+  ]
+ },
+ "fingers": [
+  "thumb",
+  "index finger",
+  "middle finger",
+  "ring finger",
+  "little finger"
+ ],
+ "and": "and",
+ "place": "the {string} string, fret {fret}",
+ "open_string": "the open {string} string",
+ "finger_place": "{finger} on the {string} string, fret {fret}",
+ "barre": "lay your index finger across all the strings at fret {fret}",
+ "mute": "Don't play the {strings} string",
+ "all_open": "all the strings open",
+ "your_turn": "Your turn",
+ "band_turn": "The band",
+ "listening": "Listening ...",
+ "right": "Right!",
+ "wrong": "Not quite",
+ "tune_low": "too low",
+ "tune_high": "too high",
+ "tune_ok": "in tune"
+}

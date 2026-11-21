@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "gitarra",
+  "bass": "baxu"
+ },
+ "scale": {
+  "major": "{note} maior",
+  "minor": "{note} minor",
+  "harmonic_minor": "{note} minor harmoniko",
+  "dorian": "{note} doriar",
+  "mixolydian": "{note} mixolidiar",
+  "major_pentatonic": "{note} maior pentatoniko",
+  "minor_pentatonic": "{note} minor pentatoniko",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} maior",
+  "minor": "{note} minor",
+  "harmonic_minor": "{note} min. harm.",
+  "dorian": "{note} doriar",
+  "mixolydian": "{note} mixolid.",
+  "major_pentatonic": "{note} maior pent.",
+  "minor_pentatonic": "{note} minor pent.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} maior",
+  "min": "{note} minor",
+  "7": "{note} zazpi",
+  "maj7": "{note} maior zazpi",
+  "m7": "{note} minor zazpi",
+  "dim": "{note} gutxitua",
+  "sus2": "{note} sus bi",
+  "sus4": "{note} sus lau",
+  "6": "{note} sei"
+ },
+ "strings": {
+  "guitar": [
+   "mi baxu",
+   "la",
+   "re",
+   "sol",
+   "si",
+   "mi altu"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "re",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "erpurua",
+  "hatz erakuslea",
+  "erdiko hatza",
+  "eraztun hatza",
+  "hatz txikia"
+ ],
+ "and": "eta",
+ "place": "{string} soka, {fret}. trastea",
+ "open_string": "{string} soka hutsik",
+ "finger_place": "{finger} {string} sokan, {fret}. trastean",
+ "barre": "jarri hatz erakuslea soka guztien gainean {fret}. trastean",
+ "mute": "Ez jo {strings} soka",
+ "all_open": "soka guztiak hutsik",
+ "your_turn": "Zure txanda",
+ "band_turn": "Taldea",
+ "listening": "Entzuten ...",
+ "right": "Zuzena!",
+ "wrong": "Ia-ia",
+ "tune_low": "baxuegi",
+ "tune_high": "altuegi",
+ "tune_ok": "afinatuta"
+}

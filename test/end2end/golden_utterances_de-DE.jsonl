@@ -1,0 +1,8 @@
+{"utterance": "bring mir die c-dur-tonleiter auf dem klavier bei", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "wie greife ich a-moll auf der gitarre", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "bring mir ode an die freude auf dem klavier bei", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "bring mir bei einen blues in a auf der gitarre zu jammen", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "stimm meinen bass", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "musikstunde", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "nächste lektion", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "was kannst du mir beibringen", "lang": "de-DE", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

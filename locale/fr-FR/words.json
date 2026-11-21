@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "guitare",
+  "bass": "basse"
+ },
+ "scale": {
+  "major": "{note} majeur",
+  "minor": "{note} mineur",
+  "harmonic_minor": "{note} mineur harmonique",
+  "dorian": "{note} dorien",
+  "mixolydian": "{note} mixolydien",
+  "major_pentatonic": "{note} pentatonique majeure",
+  "minor_pentatonic": "{note} pentatonique mineure",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} majeur",
+  "minor": "{note} mineur",
+  "harmonic_minor": "{note} min. harm.",
+  "dorian": "{note} dorien",
+  "mixolydian": "{note} mixolyd.",
+  "major_pentatonic": "{note} pent. maj.",
+  "minor_pentatonic": "{note} pent. min.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} majeur",
+  "min": "{note} mineur",
+  "7": "{note} sept",
+  "maj7": "{note} majeur sept",
+  "m7": "{note} mineur sept",
+  "dim": "{note} diminué",
+  "sus2": "{note} sus deux",
+  "sus4": "{note} sus quatre",
+  "6": "{note} six"
+ },
+ "strings": {
+  "guitar": [
+   "mi grave",
+   "la",
+   "ré",
+   "sol",
+   "si",
+   "mi aigu"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "ré",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "pouce",
+  "index",
+  "majeur",
+  "annulaire",
+  "auriculaire"
+ ],
+ "and": "et",
+ "place": "la corde de {string}, case {fret}",
+ "open_string": "la corde de {string} à vide",
+ "finger_place": "{finger} sur la corde de {string}, case {fret}",
+ "barre": "pose ton index en barré sur toutes les cordes à la case {fret}",
+ "mute": "Ne joue pas la corde de {strings}",
+ "all_open": "toutes les cordes à vide",
+ "your_turn": "À toi",
+ "band_turn": "Le groupe",
+ "listening": "J'écoute ...",
+ "right": "Juste !",
+ "wrong": "Pas tout à fait",
+ "tune_low": "trop bas",
+ "tune_high": "trop haut",
+ "tune_ok": "juste"
+}

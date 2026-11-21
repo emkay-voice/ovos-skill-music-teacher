@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Muziekleraar",
+  "description": "Piano-, gitaar- en basles: toonladders, akkoorden, eenvoudige liedjes en jammen. Op het scherm getoond met toetsen of frets en vingers, voor je gespeeld, en dan luistert hij terwijl jij speelt - via de microfoon, of precies via een MIDI-keyboard - en zegt wat goed was, of de eerste fout. Leer een liedje stukje voor stukje en speel het dan met de band; jam om beurten met de band; stem je gitaar of bas. Een cursus per instrument onthoudt waar je bent.",
+  "examples": [
+    "leer me de C groot toonladder op piano",
+    "hoe speel ik A klein op gitaar",
+    "leer me Ode aan de vreugde op piano",
+    "leer me een blues in A jammen op gitaar",
+    "stem mijn bas",
+    "muziekles",
+    "volgende les",
+    "wat kun je me leren"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

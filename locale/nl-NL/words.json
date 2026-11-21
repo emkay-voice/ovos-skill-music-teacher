@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "gitaar",
+  "bass": "bas"
+ },
+ "scale": {
+  "major": "{note} groot",
+  "minor": "{note} klein",
+  "harmonic_minor": "{note} harmonisch klein",
+  "dorian": "{note} dorisch",
+  "mixolydian": "{note} mixolydisch",
+  "major_pentatonic": "{note} groot pentatonisch",
+  "minor_pentatonic": "{note} klein pentatonisch",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} groot",
+  "minor": "{note} klein",
+  "harmonic_minor": "{note} harm. klein",
+  "dorian": "{note} dorisch",
+  "mixolydian": "{note} mixolyd.",
+  "major_pentatonic": "{note} gr. pent.",
+  "minor_pentatonic": "{note} kl. pent.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} groot",
+  "min": "{note} klein",
+  "7": "{note} zeven",
+  "maj7": "{note} groot zeven",
+  "m7": "{note} klein zeven",
+  "dim": "{note} verminderd",
+  "sus2": "{note} sus twee",
+  "sus4": "{note} sus vier",
+  "6": "{note} zes"
+ },
+ "strings": {
+  "guitar": [
+   "lage E",
+   "A",
+   "D",
+   "G",
+   "B",
+   "hoge E"
+  ],
+  "bass": [
+   "E",
+   "A",
+   "D",
+   "G"
+  ]
+ },
+ "fingers": [
+  "duim",
+  "wijsvinger",
+  "middelvinger",
+  "ringvinger",
+  "pink"
+ ],
+ "and": "en",
+ "place": "de {string}-snaar, fret {fret}",
+ "open_string": "de losse {string}-snaar",
+ "finger_place": "{finger} op de {string}-snaar, fret {fret}",
+ "barre": "leg je wijsvinger over alle snaren op fret {fret}",
+ "mute": "Speel de {strings}-snaar niet",
+ "all_open": "alle snaren los",
+ "your_turn": "Jouw beurt",
+ "band_turn": "De band",
+ "listening": "Ik luister ...",
+ "right": "Goed!",
+ "wrong": "Niet helemaal",
+ "tune_low": "te laag",
+ "tune_high": "te hoog",
+ "tune_ok": "gestemd"
+}

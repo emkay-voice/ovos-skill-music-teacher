@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "guitarra",
+  "bass": "bajo"
+ },
+ "scale": {
+  "major": "{note} mayor",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} menor armónica",
+  "dorian": "{note} dórica",
+  "mixolydian": "{note} mixolidia",
+  "major_pentatonic": "{note} pentatónica mayor",
+  "minor_pentatonic": "{note} pentatónica menor",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} mayor",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} m. armónica",
+  "dorian": "{note} dórica",
+  "mixolydian": "{note} mixolidia",
+  "major_pentatonic": "{note} pent. may.",
+  "minor_pentatonic": "{note} pent. men.",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} mayor",
+  "min": "{note} menor",
+  "7": "{note} siete",
+  "maj7": "{note} mayor siete",
+  "m7": "{note} menor siete",
+  "dim": "{note} disminuido",
+  "sus2": "{note} sus dos",
+  "sus4": "{note} sus cuatro",
+  "6": "{note} seis"
+ },
+ "strings": {
+  "guitar": [
+   "mi grave",
+   "la",
+   "re",
+   "sol",
+   "si",
+   "mi aguda"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "re",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "pulgar",
+  "dedo índice",
+  "dedo medio",
+  "dedo anular",
+  "meñique"
+ ],
+ "and": "y",
+ "place": "la cuerda {string}, traste {fret}",
+ "open_string": "la cuerda {string} al aire",
+ "finger_place": "{finger} en la cuerda {string}, traste {fret}",
+ "barre": "haz una cejilla con el índice en el traste {fret}",
+ "mute": "No toques la cuerda {strings}",
+ "all_open": "todas las cuerdas al aire",
+ "your_turn": "Tu turno",
+ "band_turn": "La banda",
+ "listening": "Te escucho ...",
+ "right": "¡Correcto!",
+ "wrong": "Casi",
+ "tune_low": "baja",
+ "tune_high": "alta",
+ "tune_ok": "afinada"
+}

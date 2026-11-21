@@ -1,0 +1,8 @@
+{"utterance": "apprends-moi la gamme de do majeur au piano", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "comment jouer la mineur à la guitare", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "apprends-moi l'hymne à la joie au piano", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "apprends-moi à jammer un blues en la à la guitare", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "accorde ma basse", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "leçon de musique", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "leçon suivante", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "qu'est-ce que tu peux m'apprendre", "lang": "fr-FR", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

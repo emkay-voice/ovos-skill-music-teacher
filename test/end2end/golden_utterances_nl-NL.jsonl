@@ -1,0 +1,8 @@
+{"utterance": "leer me de c groot toonladder op piano", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "hoe speel ik a klein op gitaar", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "leer me ode aan de vreugde op piano", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "leer me een blues in a jammen op gitaar", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "stem mijn bas", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "muziekles", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "volgende les", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "wat kun je me leren", "lang": "nl-NL", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

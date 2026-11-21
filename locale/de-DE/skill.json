@@ -1,0 +1,29 @@
+{
+  "skill_id": "ovos-skill-music-teacher.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-music-teacher",
+  "package_name": "ovos-skill-music-teacher",
+  "pip_spec": "ovos-skill-music-teacher",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "name": "Musiklehrer",
+  "description": "Klavier-, Gitarren- und Bassunterricht: Tonleitern, Akkorde, einfache Lieder und Jammen. Auf dem Bildschirm mit Tasten oder Bünden und Fingern gezeigt, dir vorgespielt, dann hört er dir beim Spielen zu - über das Mikrofon oder genau über ein MIDI-Keyboard - und sagt, was richtig war, oder den ersten Fehler. Lerne ein Lied Stück für Stück und spiel es dann mit der Band; jamme abwechselnd mit der Band; stimme deine Gitarre oder deinen Bass. Ein Kurs für jedes Instrument merkt sich, wo du bist.",
+  "examples": [
+    "bring mir die C-Dur-Tonleiter auf dem Klavier bei",
+    "wie greife ich a-Moll auf der Gitarre",
+    "bring mir Ode an die Freude auf dem Klavier bei",
+    "bring mir bei einen Blues in A auf der Gitarre zu jammen",
+    "stimm meinen Bass",
+    "Musikstunde",
+    "nächste Lektion",
+    "was kannst du mir beibringen"
+  ],
+  "tags": [
+    "music",
+    "learning",
+    "education",
+    "piano",
+    "guitar",
+    "bass"
+  ],
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-music-teacher/main/icon.png"
+}

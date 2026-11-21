@@ -1,0 +1,8 @@
+{"utterance": "insegnami la scala di do maggiore al pianoforte", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "come suono la minore sulla chitarra", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "insegnami l'inno alla gioia al pianoforte", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "insegnami a improvvisare un blues in la sulla chitarra", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "teach"}
+{"utterance": "accorda il mio basso", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "tune"}
+{"utterance": "lezione di musica", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "prossima lezione", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "lesson"}
+{"utterance": "cosa mi puoi insegnare", "lang": "it-IT", "skill_id": "ovos-skill-music-teacher.emkay-voice", "intent_label": "list"}

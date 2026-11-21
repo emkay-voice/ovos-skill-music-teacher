@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "piano",
+  "guitar": "guitarra",
+  "bass": "baixo"
+ },
+ "scale": {
+  "major": "{note} maior",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} menor harmónica",
+  "dorian": "{note} dórica",
+  "mixolydian": "{note} mixolidia",
+  "major_pentatonic": "{note} pentatónica maior",
+  "minor_pentatonic": "{note} pentatónica menor",
+  "blues": "{note} blues"
+ },
+ "scale_heading": {
+  "major": "{note} maior",
+  "minor": "{note} menor",
+  "harmonic_minor": "{note} m. harm.",
+  "dorian": "{note} dórica",
+  "mixolydian": "{note} mixolidia",
+  "major_pentatonic": "{note} pent. maior",
+  "minor_pentatonic": "{note} pent. menor",
+  "blues": "{note} blues"
+ },
+ "chord": {
+  "maj": "{note} maior",
+  "min": "{note} menor",
+  "7": "{note} sete",
+  "maj7": "{note} maior sete",
+  "m7": "{note} menor sete",
+  "dim": "{note} diminuído",
+  "sus2": "{note} sus dous",
+  "sus4": "{note} sus catro",
+  "6": "{note} seis"
+ },
+ "strings": {
+  "guitar": [
+   "mi grave",
+   "la",
+   "re",
+   "sol",
+   "si",
+   "mi aguda"
+  ],
+  "bass": [
+   "mi",
+   "la",
+   "re",
+   "sol"
+  ]
+ },
+ "fingers": [
+  "polgar",
+  "dedo índice",
+  "dedo medio",
+  "dedo anular",
+  "dedo pequeno"
+ ],
+ "and": "e",
+ "place": "a corda {string}, traste {fret}",
+ "open_string": "a corda {string} ao aire",
+ "finger_place": "{finger} na corda {string}, traste {fret}",
+ "barre": "fai unha cella co índice no traste {fret}",
+ "mute": "Non toques a corda {strings}",
+ "all_open": "todas as cordas ao aire",
+ "your_turn": "Tócache a ti",
+ "band_turn": "A banda",
+ "listening": "Escóitote ...",
+ "right": "Correcto!",
+ "wrong": "Case",
+ "tune_low": "baixa",
+ "tune_high": "alta",
+ "tune_ok": "afinada"
+}

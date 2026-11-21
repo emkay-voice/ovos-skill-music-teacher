@@ -1,0 +1,76 @@
+{
+ "instrument": {
+  "piano": "Klavier",
+  "guitar": "Gitarre",
+  "bass": "Bass"
+ },
+ "scale": {
+  "major": "{note}-Dur",
+  "minor": "{note}-Moll",
+  "harmonic_minor": "{note} harmonisch Moll",
+  "dorian": "{note} dorisch",
+  "mixolydian": "{note} mixolydisch",
+  "major_pentatonic": "{note}-Dur-Pentatonik",
+  "minor_pentatonic": "{note}-Moll-Pentatonik",
+  "blues": "{note}-Blues"
+ },
+ "scale_heading": {
+  "major": "{note}-Dur",
+  "minor": "{note}-Moll",
+  "harmonic_minor": "{note} harm. Moll",
+  "dorian": "{note} dorisch",
+  "mixolydian": "{note} mixolyd.",
+  "major_pentatonic": "{note}-Dur pent.",
+  "minor_pentatonic": "{note}-Moll pent.",
+  "blues": "{note}-Blues"
+ },
+ "chord": {
+  "maj": "{note}-Dur",
+  "min": "{note}-Moll",
+  "7": "{note} sieben",
+  "maj7": "{note} Major sieben",
+  "m7": "{note}-Moll sieben",
+  "dim": "{note} vermindert",
+  "sus2": "{note} sus zwei",
+  "sus4": "{note} sus vier",
+  "6": "{note} sechs"
+ },
+ "strings": {
+  "guitar": [
+   "tiefe E",
+   "A",
+   "D",
+   "G",
+   "H",
+   "hohe E"
+  ],
+  "bass": [
+   "E",
+   "A",
+   "D",
+   "G"
+  ]
+ },
+ "fingers": [
+  "Daumen",
+  "Zeigefinger",
+  "Mittelfinger",
+  "Ringfinger",
+  "kleiner Finger"
+ ],
+ "and": "und",
+ "place": "der {string}-Saite, {fret}. Bund",
+ "open_string": "der leeren {string}-Saite",
+ "finger_place": "{finger} auf der {string}-Saite im {fret}. Bund",
+ "barre": "leg den Zeigefinger quer über alle Saiten im {fret}. Bund",
+ "mute": "Die {strings}-Saite nicht spielen",
+ "all_open": "alle Saiten leer",
+ "your_turn": "Du bist dran",
+ "band_turn": "Die Band",
+ "listening": "Ich höre zu ...",
+ "right": "Richtig!",
+ "wrong": "Nicht ganz",
+ "tune_low": "zu tief",
+ "tune_high": "zu hoch",
+ "tune_ok": "gestimmt"
+}
