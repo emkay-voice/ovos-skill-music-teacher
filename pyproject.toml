@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-skill-music-teacher"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "OVOS music teacher for piano, guitar and bass: scales, chords, simple songs and jamming - shown on the screen, played for you, then it listens to you play and says what was right; a tuner, and a course that remembers where you are"
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "music", "lessons", "piano", "guitar", "bass", "tuner", "scales", "chords", "jam", "midi", "emkay"]
 classifiers = [
