@@ -161,6 +161,43 @@ class MusicTeacherSkill(ConversationalSkill):
             return name
         return self.progress().get("instrument")
 
+    # ------------------------------------------------------------ the control panel's page
+    def initialize(self):
+        # controlpanel.json: the courses and how far you have come, and starting one again
+        self.add_event("ovos.music_teacher.courses", self.handle_courses)
+        self.add_event("ovos.music_teacher.course.reset", self.handle_course_reset)
+
+    def courses(self) -> dict:
+        """Each instrument's course: how many lessons there are, how many are done, what comes next."""
+        p = self.progress()
+        items = []
+        for inst in I.INSTRUMENTS:
+            try:
+                steps = self.course_steps(inst)
+            except (OSError, ValueError, KeyError):
+                continue
+            done = min(int(p.get(f"done_{inst}", 0)), len(steps))
+            items.append({"id": inst, "done": done, "total": len(steps),
+                          "next": steps[done]["do"] if done < len(steps) else "done"})
+        midi = self._midi()
+        return {"instrument": p.get("instrument"), "items": items,
+                "midi": (midi or {}).get("engine")}
+
+    def handle_courses(self, message):
+        self.bus.emit(message.response(self.courses()))
+
+    def handle_course_reset(self, message):
+        inst = message.data.get("id")
+        if inst not in I.INSTRUMENTS:
+            return self.bus.emit(message.response({"error": f"no course for {inst!r}"}))
+        with self._lock:
+            if self.step and self.step.get("inst") == inst:
+                self.step = None        # a lesson going on now is not counted after this
+            p = self.progress()
+            p[f"done_{inst}"] = 0
+            self.save_progress(p)
+        self.bus.emit(message.response(self.courses()))
+
     # ------------------------------------------------------------ intents
     @intent_handler("teach.intent")
     def handle_teach(self, message):

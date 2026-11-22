@@ -1,4 +1,5 @@
 import time
+from pathlib import Path
 from unittest.mock import MagicMock
 
 import pytest
@@ -254,3 +255,67 @@ def test_not_busy_converse_takes_nothing(skill):
 def test_list(skill):
     skill.handle_list(MagicMock(data={}))
     assert said(skill) == ["list"] and "Ode to Joy" in data_of(skill, "list")[0]["songs"]
+
+
+# ------------------------------------------------------------ the control panel's page
+def answered(skill):
+    return skill.bus.emit.call_args_list[-1][0][0].data
+
+
+def test_the_page_lists_every_course(skill):
+    skill.save_progress({"instrument": "guitar", "done_guitar": 2})
+    skill.handle_courses(Message("ovos.music_teacher.courses"))
+    d = answered(skill)
+    assert d["instrument"] == "guitar" and d["midi"] == "builtin"
+    courses = {c["id"]: c for c in d["items"]}
+    assert set(courses) == {"piano", "guitar", "bass"}
+    guitar = courses["guitar"]
+    assert guitar["done"] == 2 and guitar["total"] == len(skill.course_steps("guitar"))
+    assert guitar["next"] == skill.course_steps("guitar")[2]["do"]
+    assert courses["piano"]["done"] == 0
+
+
+def test_the_page_says_when_a_course_is_done(skill):
+    n = len(skill.course_steps("bass"))
+    skill.save_progress({"done_bass": n + 3})
+    skill.handle_courses(Message("ovos.music_teacher.courses"))
+    bass = {c["id"]: c for c in answered(skill)["items"]}["bass"]
+    assert bass["done"] == n and bass["next"] == "done"
+
+
+def test_without_midi_the_page_says_so(skill):
+    skill.bus.band = None
+    skill.handle_courses(Message("ovos.music_teacher.courses"))
+    assert answered(skill)["midi"] is None
+
+
+def test_a_course_starts_again_from_the_page(skill):
+    skill.save_progress({"instrument": "piano", "done_piano": 5, "done_bass": 3})
+    skill.step = {"inst": "piano", "do": "scale"}
+    skill.handle_course_reset(Message("ovos.music_teacher.course.reset", {"id": "piano"}))
+    assert skill.progress()["done_piano"] == 0 and skill.progress()["done_bass"] == 3
+    assert skill.step is None
+    assert {c["id"]: c["done"] for c in answered(skill)["items"]}["piano"] == 0
+
+
+def test_an_unknown_course_is_an_error(skill):
+    skill.handle_course_reset(Message("ovos.music_teacher.course.reset", {"id": "tuba"}))
+    assert "error" in answered(skill)
+
+
+def test_the_page_only_sends_what_the_skill_handles():
+    import json
+    page = json.loads((Path(sk.__file__).parent / "controlpanel.json").read_text())
+    sent = set()
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ("query", "send"):
+                    sent.add(v)
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(page)
+    assert sent == {"ovos.music_teacher.courses", "ovos.music_teacher.course.reset"}

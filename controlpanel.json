@@ -1,0 +1,64 @@
+{
+ "controlpanel": 1,
+ "id": "music-teacher",
+ "title": "mt.title",
+ "group": "music",
+ "order": 30,
+ "icon": "controlpanel.svg",
+ "bus": "ovos.music_teacher.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "mt.intro"
+  },
+  {
+   "type": "text",
+   "heading": "mt.how",
+   "steps": [
+    "mt.how.1",
+    "mt.how.2",
+    "mt.how.3"
+   ]
+  },
+  {
+   "type": "status",
+   "heading": "mt.now",
+   "query": "ovos.music_teacher.courses",
+   "rows": [
+    {
+     "label": "mt.instrument",
+     "value": "{instrument@mt.inst}",
+     "empty": "mt.instrument.none"
+    },
+    {
+     "label": "mt.midi",
+     "value": "{midi}",
+     "when": "midi"
+    },
+    {
+     "text": "mt.midi.none",
+     "when": "!midi"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "heading": "mt.courses",
+   "query": "ovos.music_teacher.courses",
+   "items": "items",
+   "key": "id",
+   "title": "{id@mt.inst}",
+   "text": "{next@mt.next}",
+   "meta": "mt.progress",
+   "actions": [
+    {
+     "label": "mt.reset",
+     "send": "ovos.music_teacher.course.reset",
+     "when": "done",
+     "confirm": "mt.reset.sure",
+     "done": "mt.reset.done"
+    }
+   ]
+  }
+ ]
+}
