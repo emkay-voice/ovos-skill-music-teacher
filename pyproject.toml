@@ -47,4 +47,4 @@ packages = ["ovos_skill_music_teacher"]
 ovos_skill_music_teacher = ""
 
 [tool.setuptools.package-data]
-ovos_skill_music_teacher = ["locale/**/*", "*.png", "lessons/*.json"]
+ovos_skill_music_teacher = ["locale/**/*", "*.png", "lessons/*.json", "controlpanel.json", "controlpanel.svg"]

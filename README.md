@@ -131,6 +131,15 @@ It brings ovos-skill-jamband (the band, the songs) and ovos-phal-plugin-midi
 once after installing; Emkay starts it by itself. Without it everything still
 works - except you hear no examples, and there is no band.
 
+## In the control panel
+
+The skill brings its own page for [ovos-control-panel](https://github.com/OpenVoiceOS/ovos-control-panel)
+(`controlpanel.json`, under *Music*): what to say to start, the instrument you
+practise, whether there is a MIDI instrument to play the examples, and each
+course with how many lessons are done and what comes next, with a button to
+start a course again. In all of Emkay's languages. On the bus that is
+`ovos.music_teacher.courses` and `ovos.music_teacher.course.reset` (`{"id": "piano"}`).
+
 ## Development
 
 See [DEVELOPMENT.md](DEVELOPMENT.md).
